@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   PREMIUM BEIGE + DARK THEME
+========================= */
+
+body {
+  @apply bg-[#f5f1e8] text-[#1f1f1f] font-sans;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* CARD */
+.card {
+  @apply bg-[#ffffff] rounded-2xl shadow-md hover:shadow-xl border border-[#e8e0d1];
+}
+
+/* PRIMARY BUTTON (dark espresso) */
+.btn-primary {
+  @apply bg-[#2b2b2b] text-[#f5f1e8] px-4 py-2 rounded-xl hover:bg-[#1f1f1f];
+}
+
+/* SECONDARY BUTTON */
+.btn-secondary {
+  @apply bg-[#e8e0d1] text-[#1f1f1f] px-4 py-2 rounded-xl hover:bg-[#ddd2bf];
+}
+
+/* DANGER */
+.btn-danger {
+  @apply bg-red-500 text-white px-4 py-2 rounded-xl hover:bg-red-600;
+}
+
+/* WARNING */
+.btn-warning {
+  @apply bg-yellow-500 text-white px-4 py-2 rounded-xl hover:bg-yellow-600;
+}
+
+/* INPUTS */
+.input {
+  @apply w-full border border-[#e0d6c6] rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-[#2b2b2b];
+}
+
+/* TEXT HELPERS */
+.text-muted {
+  @apply text-[#6b6b6b];
+}
+
+/* NAV / SURFACES */
+.surface {
+  @apply bg-[#f5f1e8];
+}
